@@ -1,0 +1,10 @@
+name: First Temp Demo
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello Sasa!"
+      - name: Print Goodbye
+        run: echo "Bye - Sas!"
